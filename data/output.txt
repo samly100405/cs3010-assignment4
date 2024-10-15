@@ -1,0 +1,34 @@
+10 pointsSuccessfully interpolated points. Runtime: 4041
+Evaluating the interpolated polynomial. Enter a real number, or 'q' to quit.
+Successfully evaluated. Runtime: 459
+P(-24.981316207645648) = 45.177068992874794
+Successfully evaluated. Runtime: 458
+P(76.7935980647319) = 2568555.7803491666
+Successfully evaluated. Runtime: 375
+P(1.622018060483171) = 729.3464457029312
+Successfully evaluated. Runtime: 333
+P(75.31497788179269) = 2567648.560251669
+
+100 points
+Successfully interpolated points. Runtime: 131375
+Evaluating the interpolated polynomial. Enter a real number, or 'q' to quit.
+Successfully evaluated. Runtime: 1667
+P(-76.81912875830703) = 1.5549001998370129E13
+Successfully evaluated. Runtime: 1459
+P(79.06973985521032) = -3.20691448553995E17
+Successfully evaluated. Runtime: 1458
+P(-32.68265266535107) = 8424367.550539663
+Successfully evaluated. Runtime: 1417
+P(63.354018011820926) = -7.050263713923879E9
+
+1000 points
+Successfully interpolated points. Runtime: 3169083
+Evaluating the interpolated polynomial. Enter a real number, or 'q' to quit.
+Successfully evaluated. Runtime: 11916
+P(-31.133060179981925) = 2.9150246169071402E7
+Successfully evaluated. Runtime: 12208
+P(-3.862303968846234) = -2.4227777444590077E8
+Successfully evaluated. Runtime: 12458
+P(43.83817214130718) = 8.567910394293755E10
+Successfully evaluated. Runtime: 12500
+P(59.39025757030595) = -1.2988661260375917E11
