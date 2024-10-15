@@ -33,17 +33,20 @@ public class Main {
                 y[i-nums.size()/2] = nums.get(i);
             }
 
-            NestedNewtonPolynomial p = new NestedNewtonPolynomial(x, y);
+            NestedNewtonPolynomial p;
+            p = new NestedNewtonPolynomial(x, y);
 
             Scanner userScanner = new Scanner(System.in);
             System.out.println("Evaluating the interpolated polynomial. Enter a real number, or 'q' to quit.");
             while (true) {
                 String s = userScanner.next();
 
-                if (Objects.equals(s, "q")) break;
+                if (s.equals("q")) break;
 
                 try {
-                    System.out.println(p.evaluate(Double.parseDouble(s)));
+                    double in = Double.parseDouble(s);
+                    double sol = p.evaluate(in);
+                    System.out.println("P(" + in + ") = " + sol);
                 } catch (NumberFormatException e) {
                     System.out.println("Enter a valid number or 'q' to quit.");
                 }
